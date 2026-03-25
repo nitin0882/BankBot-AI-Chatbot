@@ -1,0 +1,64 @@
+{
+  "ai_restrictions": {
+    "role": "banking_assistant",
+"allowed_topics": [
+  "bank",
+  "banking",
+  "finance",
+  "money",
+  "save",
+  "saving",
+  "expenses",
+  "budget",
+  "loan",
+  "emi",
+  "credit",
+  "credit card",
+  "debit",
+  "interest",
+  "account",
+  "open account",
+  "bank account",
+  "savings account",
+  "current account",
+  "investment"
+],
+    "blocked_topics": [
+      "politics",
+      "religion",
+      "medical",
+      "illegal",
+      "hacking",
+      "coding",
+      "adult",
+      "games",
+      "movies",
+      "personal advice"
+    ],
+    "fallback_message": "⚠️ I can only help with banking and finance-related queries."
+  },
+
+  "system_prompt": "You are a banking assistant. Answer only banking and finance-related questions. Keep responses short, simple, and professional.",
+
+  "offline_responses": {
+    "saving_tips": [
+      "Track your monthly expenses",
+      "Save at least 20% of your income",
+      "Avoid unnecessary subscriptions",
+      "Use credit cards responsibly"
+    ],
+    "loan_tips": [
+      "Keep EMIs below 40% of income",
+      "Maintain a good credit score",
+      "Avoid multiple active loans"
+    ]
+  },
+
+  "transaction_keywords": [
+    "add",
+    "deposit",
+    "send",
+    "transfer",
+    "balance"
+  ]
+}
